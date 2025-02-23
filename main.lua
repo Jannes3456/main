@@ -4,7 +4,7 @@ if not getgenv().FlameExecuted then
         game.Loaded:Wait()
     end
     
-    getgenv().FlameExecuted = true
+    getgenv().FlameExecuted = false
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Jannes3456/wall/refs/heads/main/wall.lua", true))()
     task.wait(0.2)

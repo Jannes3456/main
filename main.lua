@@ -7,7 +7,9 @@ if not getgenv().FlameExecuted then
     getgenv().FlameExecuted = true
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Jannes3456/wall/refs/heads/main/wall.lua", true))()
-    task.wait(0.1)
+    task.wait(0.2)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jannes3456/aim/refs/heads/main/aim", true))()
+    task.wait(0.2)
 
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = " 🔥 Flame 🔥", 
